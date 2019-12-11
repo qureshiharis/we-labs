@@ -1,0 +1,61 @@
+ article * {
+  background-color: #FEF8DD;
+}
+
+p {
+  font-family: fantasy;
+}
+
+h3 {
+  font-family: fantasy;
+  font-style: italic;
+  color: RED;
+}
+
+#my-heading {
+  text-align: center;
+  color: GREEN;
+}
+
+
+h2 #my-heading {
+  text-align: left;
+  color: CYAN;
+}
+
+.my-paragraph {
+  color: GREEN;
+}
+
+h5 > p {
+  background-color: #779911;
+}
+
+article p {
+  background-color: PINK;
+}
+
+
+h5~h6 {
+  background-color: BROWN;
+}
+
+a:link {
+  color: red;
+}
+
+a:active {
+  color:blue;
+}
+
+a:hover {
+  color:green;
+}
+
+div p:first-child {
+  color: yellow;
+}
+
+p:last-child {
+  color: orange;
+}

@@ -1,0 +1,41 @@
+ body
+{
+    text-align: center;
+}
+header
+{
+    font-size: large;
+}
+
+main
+{
+    font-size:medium;
+    font-family: courier;
+}
+
+footer
+{
+    font-size:small;
+}
+
+div
+{
+  height: 10px;
+  width: 50px;
+  background-color: powderblue;
+}
+
+h3
+{
+  text-align: left;
+  font-size: medium;
+  font-family: courier;
+}
+
+table, ul, h4, p{
+  text-align: left;
+}
+
+table {
+  font-size: small;
+}

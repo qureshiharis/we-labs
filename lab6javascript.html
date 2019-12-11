@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+
+  <body>
+    <h1 id="myheading">what's up<h1>
+
+
+      <script>
+
+        var cellphone = {
+
+          function cellphone(os, color, brand) {
+            this.os = os;
+            this.color = color;
+            this.brand = brand;
+
+          }
+        }
+
+        var mycell = new cellphone('Android', 'Blue', 'Brandless');
+
+
+
+      /*  function getAge() {
+          return 24;
+        }
+
+        for (x in person) {
+         // TODO:
+
+
+          if(typeof(person[x] == 'function')) {
+            // TODO:
+            
+          }
+        } */
+
+        document.getElementById("myheading").innerHTML = "Presenting " + cellphone.brand + " a " + cellphone.color + " colored cellphone for your needs";
+
+
+      </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>WE class practice</title>
+ </head>
+
+<body>
+  <header>
+    <h2>my bad form</h2>
+  </header>
+
+
+  <form action="/">
+
+    <fieldset>
+      <legend>Credentials</legend>
+
+      <label>Username:<br/>
+        <input type="text" name="firstname" required placeholder="Enter username"/>*
+      </label><br/>
+
+      <label>Password:<br/>
+        <input type="password" name="password" required placeholder="Enter password" value="enter"/>*
+      </label><br/>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Little info</legend>
+
+      <label>Gender:<br/>
+       <input type="radio" name="gender" value="Male" checked> Male<br>
+       <input type="radio" name="gender" value="Female"> Female<br>
+       <input type="radio" name="gender" value="Other"> Other<br>
+
+       <label>Upload your image:<br/>
+         <input type="file" name="pic" accept="image/*"> <br>
+
+         <label>About yourself:<br/>
+           <textarea rows=2 cols=30> </textarea> <br>
+
+
+        <label>Interests:<br/>
+          <input type="text" list="interests" />
+          <datalist id="interests">
+            <option>Reading</option>
+            <option>Sports</option>
+            <option>Swimming</option>
+            <option>Conspiracy theories</option>
+          </datalist>
+          <br>
+
+        <label>Country:<br/>
+
+          <select name="country">
+            <option value="Pakistan">Pakistan</option>
+            <option value="Turkey">Turkey</option>
+            </select> <br>
+
+          </fieldset>
+
+          <fieldset>
+            <legend>Product information</legend>
+            <label>Quantity of product:<br/>
+
+              <input type="number" step="2" max="20" min="1"/>
+              <label>60</label>
+
+
+          </fieldset>
+
+ <input type="checkbox" name="agree-terms" value="agree-terms" required>Agree to terms and conditions (which are none btw)<br>
+
+ <button type=submit>Submit</button>
+ <button type=reset>Reset</button>
+
+
+</form>
+
+</body>
+
+<!-- this is a comment
+multi line comment
+-->
+</html>
